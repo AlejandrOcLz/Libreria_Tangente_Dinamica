@@ -1,0 +1,1 @@
+# Libreria_Tangente_Dinamica
