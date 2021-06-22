@@ -110,7 +110,7 @@ test: .test-post
 # Add your post 'test' code here...
 
 install_header:
-	@sudo cp libtangente.h /usr/include
+	@sudo cp tangente.h /usr/include
 	
 install_libtangente:
 	@sudo cp $(CND_ARTIFACT_DIR_${CONF})/$(CND_ARTIFACT_NAME_${CONF}) /usr/lib

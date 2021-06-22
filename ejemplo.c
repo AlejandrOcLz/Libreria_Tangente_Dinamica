@@ -1,5 +1,5 @@
 
-#include "libtangente.h"
+#include <libtangente.h>
 #include <stdio.h>
 #include <stdlib.h>
 

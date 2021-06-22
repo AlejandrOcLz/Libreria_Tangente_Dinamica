@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>libtangente.h</itemPath>
+      <itemPath>tangente.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,7 +15,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>libtangente.s</itemPath>
+      <itemPath>tangente.s</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -38,14 +38,17 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <asmTool>
+          <commandLine>-c -no-pie</commandLine>
+        </asmTool>
       </compileType>
       <item path="compiladortaylor.sh" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ejemplo.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="libtangente.h" ex="false" tool="3" flavor2="0">
+      <item path="tangente.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="libtangente.s" ex="false" tool="4" flavor2="0">
+      <item path="tangente.s" ex="false" tool="4" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="2">
@@ -72,9 +75,9 @@
       </item>
       <item path="ejemplo.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="libtangente.h" ex="false" tool="3" flavor2="0">
+      <item path="tangente.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="libtangente.s" ex="false" tool="4" flavor2="0">
+      <item path="tangente.s" ex="false" tool="4" flavor2="0">
       </item>
     </conf>
   </confs>

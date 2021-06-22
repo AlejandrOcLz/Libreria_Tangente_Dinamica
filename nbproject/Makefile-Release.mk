@@ -36,7 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/ejemplo.o \
-	${OBJECTDIR}/libtangente.o
+	${OBJECTDIR}/tangente.o
 
 
 # C Compiler Flags
@@ -68,9 +68,9 @@ ${OBJECTDIR}/ejemplo.o: ejemplo.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -fPIC  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ejemplo.o ejemplo.c
 
-${OBJECTDIR}/libtangente.o: libtangente.s
+${OBJECTDIR}/tangente.o: tangente.s
 	${MKDIR} -p ${OBJECTDIR}
-	$(AS) $(ASFLAGS) -o ${OBJECTDIR}/libtangente.o libtangente.s
+	$(AS) $(ASFLAGS) -o ${OBJECTDIR}/tangente.o tangente.s
 
 # Subprojects
 .build-subprojects:
